@@ -590,13 +590,6 @@ msgid "Customers"
 msgstr "Clientes"
 
 #. module: stock_barcodes
-#: model:ir.model.fields,help:stock_barcodes.field_wiz_stock_barcodes_read__product_uom_id
-#: model:ir.model.fields,help:stock_barcodes.field_wiz_stock_barcodes_read_inventory__product_uom_id
-#: model:ir.model.fields,help:stock_barcodes.field_wiz_stock_barcodes_read_picking__product_uom_id
-msgid "Default unit of measure used for all stock operations."
-msgstr ""
-
-#. module: stock_barcodes
 #: model:ir.model.fields,help:stock_barcodes.field_stock_barcodes_option_group__manual_entry
 msgid "Default value when open scan interface"
 msgstr "Valor por defecto al entrar en el interfaz de escaneo"
@@ -720,6 +713,11 @@ msgstr "Auto rellenado"
 #: model:ir.model.fields,field_description:stock_barcodes.field_stock_barcodes_option__forced
 msgid "Forced"
 msgstr "Forzado"
+
+#. module: stock_barcodes
+#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__forced_todo_key
+msgid "Forced Todo Key"
+msgstr ""
 
 #. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_stock_barcodes_option_group__auto_lot
@@ -944,6 +942,11 @@ msgstr "Cantidad manual"
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_candidate_picking__is_pending
 msgid "Is Pending"
 msgstr "Pendiente"
+
+#. module: stock_barcodes
+#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_todo__is_stock_move_line_origin
+msgid "Is Stock Move Line Origin"
+msgstr ""
 
 #. module: stock_barcodes
 #: model:ir.model.fields,help:stock_barcodes.field_stock_barcodes_option_group__confirmed_moves
@@ -1458,13 +1461,18 @@ msgid "Product Qty. Done"
 msgstr ""
 
 #. module: stock_barcodes
+#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read__product_uom_id
+#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_inventory__product_uom_id
+#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__product_uom_id
+msgid "Product Uom"
+msgstr ""
+
+#. module: stock_barcodes
 #: model_terms:ir.ui.view,arch_db:stock_barcodes.view_stock_barcodes_read_picking_form
 msgid "Put in pack"
 msgstr "Poner en paquete"
 
 #. module: stock_barcodes
-#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read__qty_available
-#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_inventory__qty_available
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__qty_available
 msgid "Qty Available"
 msgstr "Cant. Disponible"
@@ -1780,13 +1788,6 @@ msgid "Type of operation"
 msgstr "Tipo de operación"
 
 #. module: stock_barcodes
-#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read__product_uom_id
-#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_inventory__product_uom_id
-#: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_picking__product_uom_id
-msgid "Unit of Measure"
-msgstr ""
-
-#. module: stock_barcodes
 #: model:ir.model.fields,field_description:stock_barcodes.field_wiz_stock_barcodes_read_todo__uom_id
 msgid "Uom"
 msgstr "UdM"
@@ -1882,8 +1883,8 @@ msgstr "Asistente para leer códigos de barras desde el inventario"
 
 #. module: stock_barcodes
 #: model:ir.model,name:stock_barcodes.model_wiz_stock_barcodes_read_picking
-msgid "Wizard to read barcode on picking"
-msgstr "Asistente para leer códigos de barras desde los albaranes"
+msgid "Wizard to read barcode on picking batch"
+msgstr ""
 
 #. module: stock_barcodes
 #: model:ir.model,name:stock_barcodes.model_wiz_stock_barcodes_read_todo
@@ -1971,3 +1972,6 @@ msgstr "desbloquear el albarán"
 #, python-format
 msgid "{name} is required"
 msgstr ""
+
+#~ msgid "Wizard to read barcode on picking"
+#~ msgstr "Asistente para leer códigos de barras desde los albaranes"
