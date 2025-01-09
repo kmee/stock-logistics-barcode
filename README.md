@@ -31,6 +31,7 @@ addon | version | maintainers | summary
 [product_multi_barcode_stock_menu](product_multi_barcode_stock_menu/) | 16.0.1.0.0 |  | Multiple barcodes menu
 [product_packaging_multi_barcode](product_packaging_multi_barcode/) | 16.0.1.3.0 |  | Multiple barcodes on product packagings
 [stock_barcodes](stock_barcodes/) | 16.0.1.1.0 |  | It provides read barcode on stock operations.
+[stock_barcodes_picking_batch](stock_barcodes_picking_batch/) | 16.0.1.0.0 |  | It provides read barcodes on stock operations from batch pickings.
 [stock_picking_product_barcode_report](stock_picking_product_barcode_report/) | 16.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | It provides a wizard to select how many barcodes print.
 
 [//]: # (end addons)
